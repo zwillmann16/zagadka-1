@@ -1,14 +1,29 @@
-# zagadka-1
-pierwsza zagadka terenowki 2026
-gra terenowa/
-  index.html
-startowa
-  etap1.html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-*">
+  <title>Zagadka nr. 1</title>
+</head>
+<body>
+<h1>Zagadka 1</h1>
+<p>AND YK YK YK!</p>
+<input type="text" id="odpowiedz" placeholder="Wpisz odpowiedż">
+<button onclick="sprawdz()">Sprawdź</button>
+  
+<p id="wynik"></p>
 
-  css/
-    styl.css
+<script>
+function sprawdz() {
+  let odp =
+document.getElementById("odpoweidz").value.toLowerCase().trim();
 
-  js/
-    gra.js
+  if (odp === "life can be beautiful") {
 
-  img/
+document.getElementById("wynik").innerHTML="Dobra odpowiedź<br><br>Idż ebebebebe.";
+  } else {
+document.getElementById("wynik").innerHTML="WOMP WOMP";
+  }
+}
+</script>
+</body>
+</html>
