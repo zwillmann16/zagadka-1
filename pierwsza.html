@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-*">
+    <meta charset="UTF-8">
   <title>Zagadka nr. 1</title>
 </head>
 <body>
 <h1>Zagadka 1</h1>
+    
 <p>AND YK YK YK!</p>
+    
 <input type="text" id="odpowiedz" placeholder="Wpisz odpowiedż">
 <button onclick="sprawdz()">Sprawdź</button>
   
@@ -15,7 +17,7 @@
 <script>
 function sprawdz() {
   let odp =
-document.getElementById("odpoweidz").value.toLowerCase().trim();
+document.getElementById("odpowiedz").value.toLowerCase().trim();
 
   if (odp === "life can be beautiful") {
 
